@@ -2,7 +2,8 @@ package ArrayDSA;
 public class avg {
     static void main(){
         int[] arr = {2,4,5,8,9};
-        System.out.println(getAverage(arr));
+        int getAverage = (int)getAverage(arr);
+        System.out.println(getAverage);
 
     }
     static double getAverage(int[] arr){

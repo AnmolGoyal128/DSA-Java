@@ -1,9 +1,11 @@
 package ArrayDSA;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class arraypractice {
     public static void main(String[] args) {
+
+        //transversing over complete array from 0 to n-1 index or n if i<n
         int arr[] = {12,56,78,99};
         int n = arr.length;
 
@@ -11,7 +13,7 @@ public class arraypractice {
             System.out.println("The value of my array is " + arr[i]);
         }
 
-
+        //find the sum of all values in an array
         int brr[] = {67,67,89,99,100};
         int sum = 0;
         int n1 = brr.length;;
@@ -104,11 +106,11 @@ public class arraypractice {
 
         }
         int jrr[][] = new int[3][4];
-        Scanner sc = new Scanner(System.in);
+        //Scanner sc = new Scanner(System.in);
         for (int i = 0;i<= jrr.length-1;i++){
             for(int j =0;j<=jrr[i].length-1;j++){
                 System.out.println("Provide value for row " + i + " and column " + j);
-                jrr[i][j] = sc.nextInt();
+                // jrr[i][j] = sc.nextInt();
             }
         } 
         for(int rowindex2 = 0;rowindex2<=jrr.length-1;rowindex2++){
